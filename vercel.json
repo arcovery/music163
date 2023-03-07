@@ -1,8 +1,9 @@
 {
-	"rewrites": [
+
+	"rewrite1": [
 		{
-			"source": "/backend/(.*)",
-			"destination": "/api/proxy.js"
+			"source": "/proxy/:match*",
+			"destination": "https://music.zll.cool/:match*"
 		}
 	]
 }
