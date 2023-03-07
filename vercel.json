@@ -1,9 +1,14 @@
 {
-
-	"rewrite1": [
+	"name": "realwds-api",
+	"version": 2,
+	"routes": [
 		{
-			"source": "/proxy/:match*",
-			"destination": "https://music.zll.cool/:match*"
+			"src": "/",
+			"headers": {
+				"cache-control": "no-cache, no-store, must-revalidate",
+				"Access-Control-Allow-Origin": "*"
+			}
 		}
+		
 	]
 }
