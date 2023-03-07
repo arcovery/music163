@@ -2,7 +2,11 @@
 	"rewrites": [
 		{
 			"source": "/backend/(.*)",
-			"destination": "/api/proxy"
+			"destination": "/api/proxy",
+			"headers": {
+				"cache-control": "no-cache, no-store, must-revalidate",
+				"Access-Control-Allow-Origin": "*"
+			}
 		}
 	]
 }
