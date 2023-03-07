@@ -1,15 +1,8 @@
 {
-	"name": "realwds-api",
-	"version": 2,
-	"routes": [
+	"rewrites": [
 		{
-			"src": "/",
-			"headers": {
-				"cache-control": "no-cache, no-store, must-revalidate",
-				"Access-Control-Allow-Origin": "*"
-			},
-			"dest": "/api"
+			"source": "/backend/(.*)",
+			"destination": "/api/proxy"
 		}
-		
 	]
 }
