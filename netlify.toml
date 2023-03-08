@@ -1,1 +1,1 @@
-/api    http://music.zll.cool   200
+/api/*    http://music.zll.cool/:splat   200
