@@ -19,10 +19,10 @@ module.exports = (req, res) => {
 			// 例如 /backend/user/login 将被转发到 http://backend-api.com/user/login
 			'^/backend/': '/',
 		},
-		router: {
-			// 如果请求主机 == 'dev.localhost:3000',
-			// 重写目标服务器 'http://www.example.org' 为 'http://localhost:8000'
-			'https://music.zll.cool': 'http://music.zll.cool',
-		},
+		// router: {
+		// 	// 如果请求主机 == 'dev.localhost:3000',
+		// 	// 重写目标服务器 'http://www.example.org' 为 'http://localhost:8000'
+		// 	'https://music.zll.cool': 'http://music.zll.cool',
+		// },
 	})(req, res)
 }
