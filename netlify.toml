@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/api/"
-  to = "http://music.zll.cool/"
+  from = "/api"
+  to = "http://music.zll.cool"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
