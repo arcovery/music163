@@ -1,4 +1,4 @@
 {
 	"version": 2,
-	"routes": [{ "src": "/(.*)", "dest": "http://music.zll.cool/$1" }]
+	"routes": [{ "src": "https://music.zll.cool/(.*)", "dest": "http://music.zll.cool/$1" }]
 }
