@@ -1,1 +1,6 @@
-/api/*  http://music.zll.cool/:splat  200
+[[redirects]]
+  from = "/api/*"
+  to = "http://music.zll.cool/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
